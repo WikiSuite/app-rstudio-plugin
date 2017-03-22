@@ -5,9 +5,9 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'rstudio_plugin';
-$app['version'] = '1.0.0';
+$app['version'] = '1.0.1';
 $app['release'] = '1';
-$app['vendor'] = 'Marc Laporte';
+$app['vendor'] = 'WikiSuite';
 $app['packager'] = 'eGloo';
 $app['license'] = 'GPLv3';
 $app['license_core'] = 'LGPLv3';

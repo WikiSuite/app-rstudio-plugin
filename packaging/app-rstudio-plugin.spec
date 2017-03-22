@@ -1,13 +1,13 @@
 
 Name: app-rstudio-plugin
 Epoch: 1
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{dist}
 Summary: RStudio Server Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Packager: eGloo
-Vendor: Marc Laporte
+Vendor: WikiSuite
 Source: app-rstudio-plugin-%{version}.tar.gz
 Buildarch: noarch
 
@@ -56,6 +56,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/rstudio_plugin/packaging
+%exclude /usr/clearos/apps/rstudio_plugin/unify.json
 %dir /usr/clearos/apps/rstudio_plugin
 /usr/clearos/apps/rstudio_plugin/deploy
 /usr/clearos/apps/rstudio_plugin/language
